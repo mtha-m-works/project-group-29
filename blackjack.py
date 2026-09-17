@@ -29,7 +29,7 @@ def parse_state(text):
 def generate_actions(state):
     raise NotImplementedError("This function is not implemented yet.")
 
-# Generic Section
+# Generic Section 11
 
 
 def apply_action(state, action, next_card=None):
