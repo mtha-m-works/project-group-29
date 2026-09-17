@@ -5,7 +5,7 @@ RANK_VALUES = {
     "J": 10, "Q": 10, "K": 10, "A": 11,
 }
 
-# Thekgo Section mANFDHGD
+# Thekgo Section
 
 
 def hand_value(cards):
@@ -17,7 +17,6 @@ def hand_value(cards):
     return total
 
 # Mtha section
-# Mtha in the building!
 
 
 def parse_state(text):
