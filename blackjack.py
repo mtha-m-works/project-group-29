@@ -5,7 +5,7 @@ RANK_VALUES = {
     "J": 10, "Q": 10, "K": 10, "A": 11,
 }
 
-# Thekgo Section
+# Thekgo Section mANFDHGD
 
 
 def hand_value(cards):
