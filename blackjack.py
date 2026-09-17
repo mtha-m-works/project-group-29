@@ -30,8 +30,16 @@ def parse_state(text):
 
 
 def generate_actions(state):
-    raise NotImplementedError("This function is not implemented yet.")
-
+    hand= state["hand"]
+    actions= ["hit", "stand"]
+    # Double down: typically only allowed on the first two cards
+    if len(hand) == 2:
+    	actions.append("double")
+    	# Split: only if both cards have the rank
+    	if hand [0] == hand[1]:
+    		actions.append("split")
+    	return actions
+    	
 # Generic Section 11
 
 
