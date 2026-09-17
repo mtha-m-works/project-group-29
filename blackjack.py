@@ -17,6 +17,7 @@ def hand_value(cards):
     return total
 
 # Mtha section
+# Mtha in the building!
 
 
 def parse_state(text):
