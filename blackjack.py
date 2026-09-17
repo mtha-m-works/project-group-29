@@ -3,6 +3,8 @@ RANK_VALUES = {
     "J": 10, "Q": 10, "K": 10, "A": 11,
 }
 
+# Thekgo Section
+
 
 def hand_value(cards):
     total = sum(RANK_VALUES[card] for card in cards)
@@ -12,6 +14,8 @@ def hand_value(cards):
         aces -= 1
     return total
 
+# Mtha section
+
 
 def parse_state(text):
     hand_str, dealer_upcard, flag = [part.strip() for part in text.split("|")]
@@ -19,9 +23,13 @@ def parse_state(text):
 
     return ...
 
+# TK section
+
 
 def generate_actions(state):
     raise NotImplementedError("This function is not implemented yet.")
+
+# Generic Section
 
 
 def apply_action(state, action, next_card=None):
