@@ -25,7 +25,7 @@ def parse_state(text):
 
     return ...
 
-# TK section 1
+# TK section
 
 
 def generate_actions(state):
