@@ -69,14 +69,7 @@ def generate_actions(state):
 
 # New Input Handling Section
 def get_user_action(state, exclude=None):
-    """
-    Presents allowed actions to the user, prompts for input,
-    and returns a validated action string.
-
-    `exclude` (optional) lets a caller hide an action that's technically
-    still legal — used by the demo below so "insurance" isn't offered
-    twice in the same turn.
-    """
+    
     exclude = exclude or []
     allowed_actions = [a for a in generate_actions(state) if a not in exclude]
 
