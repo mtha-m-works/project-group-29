@@ -43,12 +43,12 @@ def generate_actions(state):
     hand = state["hand"]
     actions = ["hit", "stand"]
     # Double down: typically only allowed on the first two cards
-    if len(hand) == 2:
-    	actions.append("double")
+    if len(hand) == 2: 
+        actions.append("double")
     	# Split: only if both cards have the rank
-    	if hand [0] == hand[1]:
-    		actions.append("split")
-    	return actions
+    if hand [0] == hand[1]:
+        actions.append("split")
+    return actions
 
 
 # New Input Handling Section
